@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navbar{
@@ -80,7 +81,7 @@ border-bottom: 300px solid transparent;
   color: #4a4a4a;
 }
 #heroImg{
-   width: 1000px;
+    width: 114%;
 
 }
 
@@ -118,19 +119,12 @@ border-bottom: 300px solid transparent;
   
 }
 
-.circle {
-    height: 50px;
-    width: 50px;
-    background-color: #006fff;
-    border-radius: 50%;
-    margin-top: 75px;
+.circle1 {
+  height: 141px; 
   }
 
-.circle1 {
-    height: 50px;
-    width: 50px;
-    background-color: #006fff;
-    border-radius: 50%;
+.circle2 {
+  height: 80px;
   }
 
 .parners{
