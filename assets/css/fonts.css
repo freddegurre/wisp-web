@@ -41,6 +41,17 @@ h4{
   color: #3d4b51;
 }
 
+h6{
+font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #3d4b51;
+}
+
 p{
     font-family: Raleway;
     font-size: 16px;

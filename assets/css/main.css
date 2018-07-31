@@ -24,14 +24,26 @@ body, html {
 }
 
 .nav-item{
-  font-family: Raleway;
-  font-size: 15px;
-  font-weight: 800;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.nav-item:hover {
+    font-weight: 800;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.nav-item:active { 
+    font-weight: 800;
+    text-decoration: underline;
+    color: #ffffff;
 }
 
 .wispContainer{
@@ -48,14 +60,19 @@ body, html {
 }
 
 
-.heroSection{
+.heroSectionIndex{
   height: 645px;
-  background-image: linear-gradient(to right, #0092ff, #006fff);
- /*
-border-left: 1920px solid #006fff;
-border-bottom: 300px solid transparent;
-*/
+  background: url("../img/Banner_bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*https://stackoverflow.com/questions/36873711/how-can-i-have-background-shapes-with-css*/
 }
+
+.heroSectionFeatures{
+    height: 645px;
+    background-image: linear-gradient(to right, #0092ff, #006fff);
+  }
+
 .heroBtn{
     width: 185px;
     height: 56.5px;
@@ -82,13 +99,27 @@ border-bottom: 300px solid transparent;
 }
 #heroImg{
     width: 114%;
+}
 
+#heroImgFeatures{
+    width: 90%;
 }
 
 @media screen and (min-width: 0px) and (max-width: 770px) {
     #heroImg { display: none; }   /* hide it elsewhere */
   }
 
+  @media screen and (min-width: 1430px) and (max-width: 3000px) {
+    #heroImg { width: 114%; }  
+  }
+
+  @media screen and (min-width: 770px) and (max-width: 1310px) {
+    #heroImg {  width: 118%; }   /* hide it elsewhere */
+  }
+
+  @media screen and (min-width: 1525px) and (max-width: 3000px) {
+    #heroImgFeatures { width: 80%; }  
+  }
 .partnersImg{
     width: 90%
 }
@@ -99,6 +130,24 @@ border-bottom: 300px solid transparent;
     width: 80%;
 }
 
+.leftImg{
+    width: 100%;
+    margin-left: -19px;
+}
+
+.leftImgFeatures{
+    width: 110%;
+    margin-left: -98px;
+}
+@media screen and (min-width: 0px) and (max-width: 1377px) {
+    .leftImgFeatures { width: 105%;
+                         margin-left: -67px; 
+                    }  
+}
+
+.adminImg2{
+    width: 118%; 
+}
 #adminImg{
     width:  85%;
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -149,12 +198,21 @@ border-bottom: 300px solid transparent;
     margin-top: 200px;
     margin-bottom: 150px;  
 }
+
+.features{
+    margin-top: 100px; 
+}
+
 .marginTop{
     margin-top: 7%;
 }
 
 .marginTop1{
     margin-top: 5%;
+}
+
+.marginItem {
+    margin: 3px; 
 }
 
 li {
@@ -165,4 +223,8 @@ li {
     height: 110%;
     margin-top: 2%;
     margin-left: -4%;
+}
+
+.link{
+    color: #617b86;
 }
