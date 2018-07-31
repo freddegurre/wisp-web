@@ -5,6 +5,7 @@ body, html {
     font-family: 'Raleway', sans-serif;
 }
 
+/* Nav Bar */
 .navbar{
     padding-top: 1%;
     padding-bottom: 1%;
@@ -46,19 +47,18 @@ body, html {
     color: #ffffff;
 }
 
+/* containter */
 .wispContainer{
     margin-right: auto;
     margin-left: auto; 
     width: 90%;
 }
 
-
-
+/*hero section index & Fatures */
 .heroCol{
     margin-top: 10%;
 
 }
-
 
 .heroSectionIndex{
   height: 645px;
@@ -86,7 +86,8 @@ body, html {
     background: #f6b93b;
     border-color: #f6b93b !important;
     transition: all 0.4s ease 0s;
-    }
+}
+
 .heroBtnTxt{
   font-family: Raleway;
   font-size: 17px;
@@ -97,6 +98,7 @@ body, html {
   letter-spacing: normal;
   color: #4a4a4a;
 }
+
 #heroImg{
     width: 114%;
 }
@@ -105,21 +107,7 @@ body, html {
     width: 90%;
 }
 
-@media screen and (min-width: 0px) and (max-width: 770px) {
-    #heroImg { display: none; }   /* hide it elsewhere */
-  }
-
-  @media screen and (min-width: 1430px) and (max-width: 3000px) {
-    #heroImg { width: 114%; }  
-  }
-
-  @media screen and (min-width: 770px) and (max-width: 1310px) {
-    #heroImg {  width: 118%; }   /* hide it elsewhere */
-  }
-
-  @media screen and (min-width: 1525px) and (max-width: 3000px) {
-    #heroImgFeatures { width: 80%; }  
-  }
+/* Partners section*/
 .partnersImg{
     width: 90%
 }
@@ -130,6 +118,14 @@ body, html {
     width: 80%;
 }
 
+.parners{
+    margin-top: 100px; 
+}
+
+/*Portal (what we do) */
+.whatWeDo{
+    margin-top: 100px; 
+}
 .leftImg{
     width: 100%;
     margin-left: -19px;
@@ -139,54 +135,12 @@ body, html {
     width: 110%;
     margin-left: -98px;
 }
-@media screen and (min-width: 0px) and (max-width: 1377px) {
-    .leftImgFeatures { width: 105%;
-                         margin-left: -67px; 
-                    }  
-}
 
-.adminImg2{
-    width: 118%; 
-}
-#adminImg{
-    width:  85%;
-    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 5px;
-}
-
-.rectangleLeft {
-    height:480px;
-    border-radius: 243.3px;
-    background-color:  #006fff; 
-    margin-left: -250px; 
-  }
-.rectangleRight{
-    width: 2000px;
-    height: 486.5px;
-    border-radius: 243.3px;
-    background-image: linear-gradient(to right, #01BBBC, #09DDDF);
-  
-}
-
-.circle1 {
-  height: 141px; 
-  }
-
-.circle2 {
-  height: 80px;
-  }
-
-.parners{
-    margin-top: 100px; 
-}
-
-.whatWeDo{
-    margin-top: 100px; 
-}
-
+/*USP */
 .usp{
     margin-top: 200px; 
 }
+/* admin */
 
 .admin{
     margin-top: 100px; 
@@ -198,6 +152,44 @@ body, html {
     margin-top: 200px;
     margin-bottom: 150px;  
 }
+.adminImg2{
+    width: 118%; 
+}
+#adminImg{
+    width:  85%;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.circle1 {
+  height: 141px; 
+  }
+.circle2 {
+  height: 80px;
+  }
+.rectangleRight{
+    width: 2000px;
+    height: 486.5px;
+    border-radius: 243.3px;
+    background-image: linear-gradient(to right, #01BBBC, #09DDDF);
+  
+}
+.rectangleLeft {
+    height:480px;
+    border-radius: 243.3px;
+    background-color:  #006fff; 
+    margin-left: -250px; 
+  }
+
+.macBottom{
+    height: 110%;
+    margin-top: 2%;
+    margin-left: -4%;
+}
+li {
+    color: #01BBBC; 
+  }
+
+
 
 .features{
     margin-top: 100px; 
@@ -215,21 +207,35 @@ body, html {
     margin: 3px; 
 }
 
-li {
-    color: #006fff; 
-  }
+/*footer */
+footer{
+    background-color:#fafcff; 
 
-.macBottom{
-    height: 110%;
-    margin-top: 2%;
-    margin-left: -4%;
 }
-
 .link{
     color: #617b86;
 }
 
-footer{
-    background-color:#fafcff; 
+/*media screens */
 
+@media screen and (min-width: 0px) and (max-width: 770px) {
+    #heroImg { display: none; }   /* hide it elsewhere */
+  }
+
+  @media screen and (min-width: 1430px) and (max-width: 3000px) {
+    #heroImg { width: 114%; }  
+  }
+
+  @media screen and (min-width: 770px) and (max-width: 1310px) {
+    #heroImg {  width: 118%; }   /* hide it elsewhere */
+  }
+
+  @media screen and (min-width: 1525px) and (max-width: 3000px) {
+    #heroImgFeatures { width: 80%; }  
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 1377px) {
+    .leftImgFeatures { width: 105%;
+                         margin-left: -67px; 
+                    }  
 }
