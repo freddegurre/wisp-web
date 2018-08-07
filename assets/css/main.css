@@ -35,6 +35,11 @@ body, html {
     color: #ffffff;
 }
 
+.navbar-brand:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 .nav-item:hover {
     font-weight: 800;
     text-decoration: underline;
@@ -71,7 +76,12 @@ body, html {
 .heroSectionFeatures{
     height: 645px;
     background-image: linear-gradient(to right, #01BBBC, #09DDDF);
-  }
+}
+
+.heroSectionAbout{
+    height: 400px;
+    background-image: linear-gradient(to right, #01BBBC, #09DDDF);
+}
 
 .heroBtn{
     width: 185px;
@@ -160,6 +170,22 @@ body, html {
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
 }
+
+/*about */
+.about{
+    margin-top: 100px; 
+}
+
+.contact{
+    width: 185px;
+    height: 56.5px;
+    border-radius: 28.3px;
+    background-color: #008bff;
+    margin-top: 25px; 
+    color: #ffffff;
+}
+
+
 .circle1 {
   height: 141px; 
   }
