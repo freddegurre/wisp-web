@@ -65,8 +65,12 @@ body, html {
 
 }
 
+#animation_container{
+    margin-left: 77px;
+}
+
 .heroSectionIndex{
-  height: 645px;
+  height: 711px;
   background: url("../img/Banner_bg.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -88,6 +92,7 @@ body, html {
     height: 56.5px;
     border-radius: 28.3px;
     background-color: #ffffff;
+    border-color:#ffffff;
     margin-top: 25px; 
 }
 
@@ -176,15 +181,49 @@ body, html {
     margin-top: 100px; 
 }
 
+/*parterns img about page*/
+.partnersAbout{
+    width: 90%; 
+    height: 100%;
+}
+
 .contact{
     width: 185px;
     height: 56.5px;
     border-radius: 28.3px;
     background-color: #008bff;
+    border-color: #008bff;
     margin-top: 25px; 
     color: #ffffff;
 }
 
+.partnersBanner{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.partners2{
+    background-color: #fafcff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px; 
+}
+
+.stefan{
+    margin-left: -90px;
+    width: 110%;
+}
+
+.form-control{
+    background-color: #ffffff;
+    border: solid 0.5px #979797;
+}
+#name{
+    height: 60px;
+}
+#email{
+    height: 60px;
+}
 
 .circle1 {
   height: 141px; 
